@@ -33,6 +33,14 @@
 - Header: Basic authorization
 - Parameters:
 - Body:
+- Success response `201 Created`
+	```
+	{
+		"access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzY0MjQyMTUsImV4cCI6MTUzNjQyNzgxNSwianRpIjoiNkJUYUsyVGV3TkRFZWlXM0NiZFBwdSIsInN1YiI6InVzZXIxIn0.f2igxRFOkzkcJf6wsshowKVj9NqeE7JcbZN_iIPNT2U",
+		"refresh_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzY0MjQyMTUsImV4cCI6MTUzOTAxNjIxNSwianRpIjoiNlN1amZkQ0FoR3ljNjJCNTZLOE5abSIsInN1YiI6InVzZXIxIn0.T8ooIOZjU324og7j2JDeTFznYYg40tfWyceZBWq_QHo",
+		"expires": 1536427815
+	}
+	```
 ## Refresh token
 - URL: /api/auth/refresh-token
 - Method: POST
