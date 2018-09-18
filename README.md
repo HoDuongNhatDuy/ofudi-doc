@@ -2,8 +2,9 @@
 - API requested from Mobile team [here](mobile-request/mobileAPI.md).
 Feel free to comment and edit it.
 - Default content type: application/json
-# Authentications
-## Register
+# 1. Admin
+## 1.1. Authentications
+### 1.1.1. Register
 - URL: /api/auth/register
 - Method: POST
 - Header
@@ -29,7 +30,7 @@ Feel free to comment and edit it.
 		}
 	}
 	```
-## Get token
+### 1.1.2. Get token
 - URL: /api/auth/token
 - Method: POST
 - Header: Basic authorization
@@ -43,7 +44,7 @@ Feel free to comment and edit it.
 		"expires": 1536427815
 	}
 	```
-## Refresh token
+### 1.1.3. Refresh token
 - URL: /api/auth/refresh-token
 - Method: POST
 - Header:
@@ -62,7 +63,7 @@ Feel free to comment and edit it.
 		"expires": 1536427815
 	}
 	```
-## Send reset password request
+### 1.1.4. Send reset password request
 After sending request, a `Reset Code` will be sent to customer via email
 - URL: /api/auth/send-reset-password-request
 - Method: POST
@@ -74,9 +75,9 @@ After sending request, a `Reset Code` will be sent to customer via email
 		"email": "user1@mailinator.com"  
 	}
 	```
-## Reset password
-# User
-## Get
+### 1.1.5. Reset password
+## 1.2. User
+### 1.2.1. Get
 - URL: /api/users
 - Method: GET
 - Header: Bearer Token
@@ -111,4 +112,32 @@ After sending request, a `Reset Code` will be sent to customer via email
 			}
 		]
 	}
+	```
+# 2. Member
+## 2.1. Authentications
+### 2.1.1. Verify Facebook account
+- URL: /api/member/verify-facebook-account
+- Method: POST
+- Header: Bearer <Facebook Token>
+- Parameters:
+- Body: 
+- Success response `200 OK`
+	```
+	{
+        "message": "Verified facebook account successfully"
+    }
+	```
+## 2.2. Profile
+### 2.2.1. Upload avatar
+- URL: /api/member/upload-avatar
+- Method: POST
+- Header: Bearer <Facebook Token>
+- Parameters:
+- Body: 
+- Success response `200 OK`
+	```
+	{
+        "avatarUrl": "/uploads/images/avatars/b0a7f019830ff6ca4b9f38de6f9b89a4.png",
+        "avatarThumbnailUrl": "/uploads/images/avatars/b0a7f019830ff6ca4b9f38de6f9b89a4_thumbnail.png"
+    }
 	```
