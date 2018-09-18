@@ -44,7 +44,16 @@ API: `api/getuserinfo/{userid}/{token}`
     "email": "hanld@vng.com.vn",
     "gender": "0",
     "old": "18",
-    "isverified": true
+    "isverified": true,
+    "ishost": true,
+    "houses": [
+      {
+        "id": "f2d09b4ea5c7743eb8ec1547ad47d00d",
+        "bannerurl": "https://s3-alpha.figma.com/img/7c25/721e/df68f241e211f880c86c16d13002332b",
+        "city": "Tam đảo",
+        "country": "Việt Nam"
+      }
+    ]
   }
 }
 ```
@@ -65,3 +74,16 @@ Description param:
 | `gender`          | int            |  <p align="left">Only accept 3 value: <br> `0`: `Male`<br> `1`: `Female`<br> `2`: `Unknow`</p> |
 | `old`             | int            |  _                                                                           |
 | `isverified`      | boolean        |  _                                                                           |
+| `ishost`          | boolean        |  <p align="left">`true` if `houses` is  NOT empty</p>                        |
+| `houses`          | List of House  |  _                                                                           |
+
+
+House model:
+
+| Param             |      Type      |  Description                                                                 |
+|-------------------|:--------------:|-----------------------------------------------------------------------------:|
+| `id`              | String         |  _                                                                           |
+| `bannerurl`       | String         |  _                                                                           |
+| `city`            | String         |  _                                                                           |
+| `country`         | String         |  _                                                                           |
+| ...               | String         |  _                                                                           |
