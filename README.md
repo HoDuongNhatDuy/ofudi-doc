@@ -1,4 +1,6 @@
 # Welcome to Ofudi APIs!
+- API requested from Mobile team [here](mobile-request/mobileAPI.md).
+Feel free to comment and edit it.
 - Default content type: application/json
 # Authentications
 ## Register
