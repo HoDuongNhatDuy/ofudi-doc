@@ -87,3 +87,39 @@ House model:
 | `city`            | String         |  _                                                                           |
 | `country`         | String         |  _                                                                           |
 | ...               | String         |  _                                                                           |
+
+# Host
+
+## Get list hosts
+
+API: `api/host/{userid}/{query param: isVerify, locale, radius ,.. }`
+
+- Method: GET
+- Response:
+
+```json
+{
+  "code": 200,
+  "message": "Success",
+  "body": [
+    {
+      "hostid": "566490e9c81877d8ba1f8082a1eff6ee",
+      "hostname": "Lý Anh Vũ",
+      "city": "Seoul",
+      "country": "Korean",
+      "isverified": true,
+      "avatarurl": "https://s3-alpha.figma.com/img/d8f6/e236/d0ad04a6b2f877bf80990a605038fdc1",
+      "distance": 10
+    },
+    {
+      "hostid": "d67e5332287e105484d3dd8cbcb107bc",
+      "hostname": "Lê Bá Quý",
+      "city": "Hồ Chí Minh",
+      "country": "Việt Nam",
+      "isverified": false,
+      "avatarurl": "https://s3-alpha.figma.com/img/ea38/6b11/3c4ce6f55e7c399a9172cf9da0511a0f",
+      "distance": 100.0
+    }
+  ]
+}
+```
