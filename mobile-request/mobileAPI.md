@@ -26,14 +26,14 @@ API: `api/getuserinfo/{userid}/{token}`
     "city": "Hồ Chí Minh",
     "country": "Việt Nam",
     "description": "I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. In my last job, this passion led me to challenge myself daily and learn new skills that helped me to do better work.",
-    "avatarurl": "https://s3-alpha.figma.com/img/b972/4386/b2e75e65ea7c4288f256661a20679ae2",
-    "smallavatarurl": "https://s3-alpha.figma.com/img/b972/4386/b2e75e65ea7c4288f256661a20679ae2",
-    "imagesurl": [
+    "avatarUrl": "https://s3-alpha.figma.com/img/b972/4386/b2e75e65ea7c4288f256661a20679ae2",
+    "smallAvatarUrl": "https://s3-alpha.figma.com/img/b972/4386/b2e75e65ea7c4288f256661a20679ae2",
+    "imagesUrl": [
       "https://s3-alpha.figma.com/img/e38a/a2f4/39d41edf0dbefead620036a6c1bbae44",
       "https://s3-alpha.figma.com/img/f4d2/d905/111aaf3c2002ed8cb0eca9ead92eaeac",
       "https://s3-alpha.figma.com/img/861b/7878/7e3293db5611908c3c258c47b8b1ece0"
     ],
-    "hobbytags": [
+    "hobbyTags": [
       "Phượt",
       "Ăn",
       "Mua Sắm",
@@ -44,8 +44,8 @@ API: `api/getuserinfo/{userid}/{token}`
     "email": "hanld@vng.com.vn",
     "gender": "0",
     "old": "18",
-    "isverified": true,
-    "ishost": true,
+    "isVerified": true,
+    "isHost": true,
     "houses": [
       {
         "id": "f2d09b4ea5c7743eb8ec1547ad47d00d",
@@ -65,16 +65,16 @@ Description param:
 | `city`            | String         |  _                                                                           |
 | `country`         | String         |  _                                                                           |
 | `description`     | String         |  _                                                                           |
-| `avatarurl`       | String         |  _                                                                           |
-| `smallavatarurl`  | String         |  <p align="left">Avatar has scaled wih small size from origin avatar</p>     |
-| `imagesurl`       | List of String |  <p align="left">List of images shown as gallery in tab account</p>          |
-| `hobbytags`       | List of String |  _                                                                           |
+| `avatarUrl`       | String         |  _                                                                           |
+| `smallAvatarUrl`  | String         |  <p align="left">Avatar has scaled wih small size from origin avatar</p>     |
+| `imagesUrl`       | List of String |  <p align="left">List of images shown as gallery in tab account</p>          |
+| `hobbyTags`       | List of String |  _                                                                           |
 | `id`              | String         |  <p align="left">A primary key to identify user, generate by server</p>      |
 | `email`           | String         |  _                                                                           |
 | `gender`          | int            |  <p align="left">Only accept 3 value: <br> `0`: `Male`<br> `1`: `Female`<br> `2`: `Unknow`</p> |
 | `old`             | int            |  _                                                                           |
-| `isverified`      | boolean        |  _                                                                           |
-| `ishost`          | boolean        |  <p align="left">`true` if `houses` is  NOT empty</p>                        |
+| `isVerified`      | boolean        |  _                                                                           |
+| `isHost`          | boolean        |  <p align="left">`true` if `houses` is  NOT empty</p>                        |
 | `houses`          | List of House  |  _                                                                           |
 
 
@@ -107,8 +107,8 @@ API: `api/host/{userid}/{query param: isVerify, locale, radius ,.. }`
       "hostname": "Lý Anh Vũ",
       "city": "Seoul",
       "country": "Korean",
-      "isverified": true,
-      "avatarurl": "https://s3-alpha.figma.com/img/d8f6/e236/d0ad04a6b2f877bf80990a605038fdc1",
+      "isVerified": true,
+      "avatarUrl": "https://s3-alpha.figma.com/img/d8f6/e236/d0ad04a6b2f877bf80990a605038fdc1",
       "distance": 10
     },
     {
@@ -116,8 +116,8 @@ API: `api/host/{userid}/{query param: isVerify, locale, radius ,.. }`
       "hostname": "Lê Bá Quý",
       "city": "Hồ Chí Minh",
       "country": "Việt Nam",
-      "isverified": false,
-      "avatarurl": "https://s3-alpha.figma.com/img/ea38/6b11/3c4ce6f55e7c399a9172cf9da0511a0f",
+      "isVerified": false,
+      "avatarUrl": "https://s3-alpha.figma.com/img/ea38/6b11/3c4ce6f55e7c399a9172cf9da0511a0f",
       "distance": 100.0
     }
   ]
