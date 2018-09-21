@@ -118,7 +118,7 @@ After sending request, a `Reset Code` will be sent to customer via email
 ### 2.1.1. Verify Facebook account
 - URL: /api/member/verify-facebook-account
 - Method: POST
-- Header: Bearer <Facebook Token>
+- Header: Bearer Facebook_Token
 - Parameters:
 - Body: 
 - Success response `200 OK`
@@ -131,7 +131,7 @@ After sending request, a `Reset Code` will be sent to customer via email
 ### 2.2.1. Upload avatar
 - URL: /api/member/upload-avatar
 - Method: POST
-- Header: Bearer <Facebook Token>
+- Header: Bearer Facebook_Token
 - Parameters:
 - Body: 
 - Success response `200 OK`
