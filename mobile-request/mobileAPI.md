@@ -128,7 +128,7 @@ API: `api/host/{userid}/{query param: isVerify, locale, radius ,.. }`
 
 ## Get news detail
 
-API: `api/getuserinfo/{newsid}`
+API: `api/getnews/{newsid}`
 
 - Method: GET
 - Response:
@@ -203,7 +203,7 @@ With `Paragraph`, type `1`
 |-------------------|:--------------:|-----------------------------------------------------------------------------:|
 | `text`            | String         |   <p align="left">Text write about sth bla bla...  </p>                      |
 
-With `Images`, , type `2`
+With `Images`,type `2`
 
 | Param             |      Type      |  Description                                                                 |
 |-------------------|:--------------:|-----------------------------------------------------------------------------:|
