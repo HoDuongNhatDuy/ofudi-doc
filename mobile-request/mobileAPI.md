@@ -3,8 +3,8 @@
  [here](../returnCode.md))
 ```json
 {
-  "code": 200
-  "message": "Success"
+  "code": 200,
+  "message": "Success",
   "body": {...}
 }
 ```
@@ -123,3 +123,89 @@ API: `api/host/{userid}/{query param: isVerify, locale, radius ,.. }`
   ]
 }
 ```
+
+# News
+
+## Get news detail
+
+API: `api/getuserinfo/{newsid}`
+
+- Method: GET
+- Response:
+
+```json
+{
+  "code": 200,
+  "message": "Success",
+  "body": {
+    "id": "56083d8af2e4459fc8d84c27cc526ef5",
+    "tilte": "Tú Làn - Thiên Đường Vô Danh trong vùng đất của KING KONG",
+    "subtilte": "Tú Làn - Thiên Đường Vô Danh",
+    "timestamp": 1537610470,
+    "tag": [
+      "du lịch",
+      "miền bắc"
+    ],
+    "headerImages": [
+      "link",
+      "link"
+    ],
+    "relatedNews": [
+      "f3ec9fb66f18b27abe9de2c6d6219af5",
+      "ae5ee9bf308fa86d66fd6bfd53be3217"
+    ],
+    "page": [
+      {
+        "type": 1,
+        "content": {
+          "text": "World's simplest random hex generator. Just press Generate ..."
+        }
+      },
+      {
+        "type": 2,
+        "content": {
+          "text": "This is caption...",
+          "images": [
+            "link1",
+            "link2"
+          ]
+        }
+      },
+      {
+        "type": 1,
+        "content": {
+          "text": "Thiên Đường Vô Danh trong vùng đất của KING KONG ..."
+        }
+      }
+    ]
+  }
+}
+```
+
+Description param:
+
+| Param             |      Type      |  Description                                                                 |
+|-------------------|:--------------:|-----------------------------------------------------------------------------:|
+| `id`              | String         |   <p align="left">Primary key to identify news  </p>                         |
+| `tilte`           | String         |  _                                                                           |
+| `subtilte`        | String         |   <p align="left">To display in news list screen  </p>                       |
+| `timestamp`       | int            |   <p align="left">Timestamp news created           </p>                      |
+| `tag`             | List if String |   <p align="left">To suggest related news for user </p>                      |
+| `headerImages`    | List if String |  <p align="left">This is list type because we can support slider in fulture</p>|
+| `relatedNews`     | List of String |  <p align="left">List of id news</p>                                         |
+| `page`            | List of Object |  <p align="left">`type` can be: <br> `1`: `Paragraph`<br> `2`: `Images`<br> ... and more (in the fulture)<br>`content` is `AbsContent` class </p>                                                                           |
+
+`AbsContent` have 2 inheritance class: `Paragraph` and `Images` (can be more in the future)
+
+With `Paragraph`, type `1`
+
+| Param             |      Type      |  Description                                                                 |
+|-------------------|:--------------:|-----------------------------------------------------------------------------:|
+| `text`            | String         |   <p align="left">Text write about sth bla bla...  </p>                      |
+
+With `Images`, , type `2`
+
+| Param             |      Type      |  Description                                                                 |
+|-------------------|:--------------:|-----------------------------------------------------------------------------:|
+| `text`            | String         |   <p align="left">This is caption of images  </p>                      |
+| `images`          | List of String |   <p align="left">List link of images. This is list type because we can support slider in fulture </p>|
