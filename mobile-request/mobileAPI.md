@@ -49,9 +49,21 @@ API: `api/getuserinfo/{userid}/{token}`
     "houses": [
       {
         "id": "f2d09b4ea5c7743eb8ec1547ad47d00d",
-        "bannerurl": "https://s3-alpha.figma.com/img/7c25/721e/df68f241e211f880c86c16d13002332b",
-        "city": "Tam đảo",
-        "country": "Việt Nam"
+        "bannerUrl": "https://s3-alpha.figma.com/img/7c25/721e/df68f241e211f880c86c16d13002332b",
+        "name": "Gold View Villa",
+        "address": "Tam Đảo",
+        "city": "Vĩnh Phúc",
+        "country": "Việt Nam",
+        "des": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leapinto electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing LoremIpsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "conveniences": [
+          "wifi",
+          "kitchen",
+          "air_conditioner",
+          "parking",
+          "water_heater",
+          "tivi",
+          "washing_machine",
+          "fridge"
       }
     ]
   }
@@ -83,10 +95,13 @@ House model:
 | Param             |      Type      |  Description                                                                 |
 |-------------------|:--------------:|-----------------------------------------------------------------------------:|
 | `id`              | String         |  _                                                                           |
-| `bannerurl`       | String         |  _                                                                           |
+| `bannerUrl`       | String         |  _                                                                           |
+| `name`            | String         |  _                                                                           |
+| `address`         | String         |  _                                                                           |
 | `city`            | String         |  _                                                                           |
 | `country`         | String         |  _                                                                           |
-| ...               | String         |  _                                                                           |
+| `des`             | String         |  _                                                                           |
+| `conveniences`    | List of String |  _                                                                           |
 
 # Host
 
