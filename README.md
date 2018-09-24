@@ -124,8 +124,11 @@ After sending request, a `Reset Code` will be sent to customer via email
 - Success response `200 OK`
 	```
 	{
-        "message": "Verified facebook account successfully"
-    }
+	    "userId": {
+		"$id": "5ba534d08568a60b600036a4"
+	    },
+	    "facebookId": "1874330452687355"
+	}
 	```
 ## 2.2. Profile
 ### 2.2.1. Upload avatar
@@ -137,7 +140,7 @@ After sending request, a `Reset Code` will be sent to customer via email
 - Success response `200 OK`
 	```
 	{
-        "avatarUrl": "/uploads/images/avatars/b0a7f019830ff6ca4b9f38de6f9b89a4.png",
-        "avatarThumbnailUrl": "/uploads/images/avatars/b0a7f019830ff6ca4b9f38de6f9b89a4_thumbnail.png"
+		"avatarUrl": "/uploads/images/avatars/b0a7f019830ff6ca4b9f38de6f9b89a4.png",
+		"avatarThumbnailUrl": "/uploads/images/avatars/b0a7f019830ff6ca4b9f38de6f9b89a4_thumbnail.png"
     }
 	```
