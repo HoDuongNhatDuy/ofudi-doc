@@ -144,3 +144,58 @@ After sending request, a `Reset Code` will be sent to customer via email
 		"avatarThumbnailUrl": "/uploads/images/avatars/b0a7f019830ff6ca4b9f38de6f9b89a4_thumbnail.png"
     }
 	```
+## 2.1. Articles
+### 2.1.1. Get latest news
+- URL: /api/member/articles/latest
+- Method: GET
+- Header: Bearer Facebook_Token
+- Parameters: 
+	+ page: optional
+- Body: 
+- Success response `200 OK`
+	```
+	{
+	    "rows": 3,
+	    "pages": 1,
+	    "articles": [
+		{
+		    "_id": {
+			"$id": "5ba9070ccbdaba15c8226b57"
+		    },
+		    "tilte": "3. Tú Làn - Thiên Đường Vô Danh trong vùng đất của KING KONG",
+		    "subtilte": "Tú Làn - Thiên Đường Vô Danh",
+		    "createdAt": "1537610472",
+		    "tag": [
+			"du lịch",
+			"miền bắc"
+		    ],
+		    "headerImages": [
+			"https://image.thanhnien.vn/665/uploaded/dinhson/2018_09_24/42295280_395318397670283_1000988436670185472_n_dffb.jpg",
+			"https://image.thanhnien.vn/665/uploaded/dinhson/2018_09_24/42295280_395318397670283_1000988436670185472_n_dffb.jpg"
+		    ],
+		    "relatedNews": [
+			{
+			    "$id": "5ba90709cbdaba15c8226b56"
+			}
+		    ],
+		    "components": [
+			{
+			    "type": "1",
+			    "content": {
+				"text": "World's simplest random hex generator. Just press Generate ..."
+			    }
+			},
+			{
+			    "type": "2",
+			    "content": {
+				"text": "This is caption...",
+				"imageUrl": "https://image.thanhnien.vn/665/uploaded/dinhson/2018_09_24/42295280_395318397670283_1000988436670185472_n_dffb.jpg"
+			    }
+			}
+		    ]
+		},
+		{...},
+		{...}
+	    ]
+	}
+	```
