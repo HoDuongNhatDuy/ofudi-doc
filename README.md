@@ -130,6 +130,18 @@ After sending request, a `Reset Code` will be sent to customer via email
 	    "facebookId": "1874330452687355"
 	}
 	```
+### 2.1.2. Revoke Facebook token
+- URL: /api/member/revoke-facebook-token
+- Method: POST
+- Header: Bearer Facebook_Token
+- Parameters:
+- Body: 
+- Success response `200 OK`
+	```
+	{
+	    "message": "Revoked token successfully"
+	}
+	```
 ## 2.2. Profile
 ### 2.2.1. Upload avatar
 - URL: /api/member/upload-avatar
