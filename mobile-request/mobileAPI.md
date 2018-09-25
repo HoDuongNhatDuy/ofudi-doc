@@ -5,7 +5,7 @@
 {
   "code": 200,
   "message": "Success",
-  "body": {...}
+  "body": {"":""}
 }
 ```
 # User
@@ -49,7 +49,11 @@ API: `api/getuserinfo/{userid}/{token}`
     "houses": [
       {
         "id": "f2d09b4ea5c7743eb8ec1547ad47d00d",
-        "bannerUrl": "https://s3-alpha.figma.com/img/7c25/721e/df68f241e211f880c86c16d13002332b",
+        "bannerUrls": [
+          "https://s3-alpha.figma.com/img/7c25/721e/df68f241e211f880c86c16d13002332b",
+          "https://odis.homeaway.com/odis/listing/82c05ddc-515c-47a0-a78a-d04d2991c761.c10.jpg",
+          "https://odis.homeaway.com/odis/listing/9dd0c10e-fe74-46a7-b69d-cc97dc634a25.c10.jpg"
+        ],
         "name": "Gold View Villa",
         "address": "Tam Đảo",
         "city": "Vĩnh Phúc",
@@ -64,6 +68,7 @@ API: `api/getuserinfo/{userid}/{token}`
           "tivi",
           "washing_machine",
           "fridge"
+        ]
       }
     ]
   }
@@ -95,7 +100,7 @@ House model:
 | Param             |      Type      |  Description                                                                 |
 |-------------------|:--------------:|-----------------------------------------------------------------------------:|
 | `id`              | String         |  _                                                                           |
-| `bannerUrl`       | String         |  _                                                                           |
+| `bannerUrls`      | List of String |  _                                                                           |
 | `name`            | String         |  _                                                                           |
 | `address`         | String         |  _                                                                           |
 | `city`            | String         |  _                                                                           |
