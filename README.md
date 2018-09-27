@@ -91,9 +91,7 @@ After sending request, a `Reset Code` will be sent to customer via email
 		"pages": 1,
 		"users": [
 			{
-				"_id": {
-					"$id": "5b9147b88568a624d8002512"
-				},
+				"_id": "5b9147b88568a624d8002512",
 				"username": "user1",
 				"email": "user1@mailinator.com",
 				"roles": [
@@ -101,9 +99,7 @@ After sending request, a `Reset Code` will be sent to customer via email
 				]
 			},
 			{
-				"_id": {
-					"$id": "5b93f8028568a62094001402"
-				},
+				"_id": "5b93f8028568a62094001402",
 				"username": "user2",
 				"email": "user2@mailinator.com",
 				"roles": [
@@ -124,10 +120,9 @@ After sending request, a `Reset Code` will be sent to customer via email
 - Success response `200 OK`
 	```
 	{
-	    "userId": {
-		"$id": "5ba534d08568a60b600036a4"
-	    },
-	    "facebookId": "1874330452687355"
+	    "_id": "5ba534d08568a60b600036a4",
+	    "facebookId": "1874330452687355",
+	    "onBoarding": true
 	}
 	```
 ### 2.1.2. Revoke Facebook token
@@ -143,7 +138,57 @@ After sending request, a `Reset Code` will be sent to customer via email
 	}
 	```
 ## 2.2. Profile
-### 2.2.1. Upload avatar
+### 2.2.1. Update
+- URL: /api/member/update-profile
+- Method: POST
+- Header: Bearer Facebook_Token
+- Parameters:
+- Body: 
+	```
+	{
+		"name": "Lý Anh Vũ",
+		"city": "Hồ Chí Minh",
+		"country": "Việt Nam",
+		"hobbyTags": [
+			"Phượt",
+			"Ăn",
+			"Mua Sắm",
+			"Nghe nhạc",
+			"Hello World"
+		 ],
+		"email": "hanld@vng.com.vn",
+		"gender": "0",
+		"old": "18",
+		"isHost": true
+	}
+	```
+- Success response `200 OK`
+	```
+	{
+		"_id": "5ba534d08568a60b600036a4",
+		"facebookId": "1874330452687355",
+	    	"facebookToken": "EAAETKIAArI8BAJQKvcIU...uoQUtyMZD",
+	    	"facebookTokenExpiredAt": 1538064000,
+	    	"avatarThumbnailUrl": "/uploads/images/avatars/4dcb1909316f7e0172d33d750c80f1ad_thumbnail.jpg",
+	    	"avatarUrl": "/uploads/images/avatars/4dcb1909316f7e0172d33d750c80f1ad.jpg",
+	    	"name": "Lý Anh Vũ",
+	    	"city": "Hồ Chí Minh",
+	    	"country": "Việt Nam",
+	    	"hobbyTags": [
+			"Phượt",
+			"Ăn",
+			"Mua Sắm",
+			"Nghe nhạc",
+			"Hello World"
+	    	],
+	    	"email": "hanld@vng.com.vn",
+	    	"gender": "0",
+	    	"old": "18",
+	    	"isHost": true,
+	    	"onBoarding": false
+	}
+	```
+### 2.2.2. Upload avatar
 - URL: /api/member/upload-avatar
 - Method: POST
 - Header: Bearer Facebook_Token
