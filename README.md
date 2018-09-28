@@ -216,9 +216,7 @@ After sending request, a `Reset Code` will be sent to customer via email
 	    "pages": 1,
 	    "articles": [
 		{
-		    "_id": {
-			"$id": "5ba9070ccbdaba15c8226b57"
-		    },
+		    "_id": "5ba9070ccbdaba15c8226b57",
 		    "tilte": "3. Tú Làn - Thiên Đường Vô Danh trong vùng đất của KING KONG",
 		    "subtilte": "Tú Làn - Thiên Đường Vô Danh",
 		    "createdAt": "1537610472",
@@ -232,7 +230,7 @@ After sending request, a `Reset Code` will be sent to customer via email
 		    ],
 		    "relatedNews": [
 			{
-			    "$id": "5ba90709cbdaba15c8226b56"
+			    "_id": "5ba90709cbdaba15c8226b56"
 			}
 		    ],
 		    "components": [
