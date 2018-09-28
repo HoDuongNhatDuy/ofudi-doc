@@ -217,8 +217,8 @@ After sending request, a `Reset Code` will be sent to customer via email
 	    "articles": [
 		{
 		    "_id": "5ba9070ccbdaba15c8226b57",
-		    "tilte": "3. Tú Làn - Thiên Đường Vô Danh trong vùng đất của KING KONG",
-		    "subtilte": "Tú Làn - Thiên Đường Vô Danh",
+		    "title": "3. Tú Làn - Thiên Đường Vô Danh trong vùng đất của KING KONG",
+		    "subtitle": "Tú Làn - Thiên Đường Vô Danh",
 		    "createdAt": "1537610472",
 		    "tag": [
 			"du lịch",
