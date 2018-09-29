@@ -228,11 +228,6 @@ After sending request, a `Reset Code` will be sent to customer via email
 			"https://image.thanhnien.vn/665/uploaded/dinhson/2018_09_24/42295280_395318397670283_1000988436670185472_n_dffb.jpg",
 			"https://image.thanhnien.vn/665/uploaded/dinhson/2018_09_24/42295280_395318397670283_1000988436670185472_n_dffb.jpg"
 		    ],
-		    "relatedNews": [
-			{
-			    "_id": "5ba90709cbdaba15c8226b56"
-			}
-		    ],
 		    "components": [
 			{
 			    "type": "1",
