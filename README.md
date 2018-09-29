@@ -216,7 +216,7 @@ After sending request, a `Reset Code` will be sent to customer via email
 	    "pages": 1,
 	    "articles": [
 		{
-		    "_id": "5ba9070ccbdaba15c8226b57",
+		    "_id": "5ba911940b2d5d15c8c2c99b",
 		    "title": "3. Tú Làn - Thiên Đường Vô Danh trong vùng đất của KING KONG",
 		    "subtitle": "Tú Làn - Thiên Đường Vô Danh",
 		    "createdAt": "1537610472",
@@ -228,19 +228,15 @@ After sending request, a `Reset Code` will be sent to customer via email
 			"https://image.thanhnien.vn/665/uploaded/dinhson/2018_09_24/42295280_395318397670283_1000988436670185472_n_dffb.jpg",
 			"https://image.thanhnien.vn/665/uploaded/dinhson/2018_09_24/42295280_395318397670283_1000988436670185472_n_dffb.jpg"
 		    ],
+		    "relatedNews": [],
 		    "components": [
 			{
-			    "type": "1",
-			    "content": {
-				"text": "World's simplest random hex generator. Just press Generate ..."
-			    }
+			    "text": "World's simplest random hex generator. Just press Generate ..."
 			},
 			{
-			    "type": "2",
-			    "content": {
-				"text": "This is caption...",
-				"imageUrl": "https://image.thanhnien.vn/665/uploaded/dinhson/2018_09_24/42295280_395318397670283_1000988436670185472_n_dffb.jpg"
-			    }
+			    "text": "World's simplest random hex generator. Just press Generate ...",
+			    "imageURL": "https://image.thanhnien.vn/665/uploaded/dinhson/2018_09_24/42295280_395318397670283_1000988436670185472_n_dffb.jpg",
+			    "imageCaption": "This is image caption"
 			}
 		    ]
 		},
@@ -301,17 +297,13 @@ After sending request, a `Reset Code` will be sent to customer via email
 		    ],
 		    "components": [
 			{
-			    "type": "1",
-			    "content": {
-				"text": "World's simplest random hex generator. Just press Generate ..."
-			    }
+			    "imageURL": "https://image.thanhnien.vn/665/uploaded/dinhson/2018_09_24/42295280_395318397670283_1000988436670185472_n_dffb.jpg",
+			    "imageCaption": "This is image caption"
 			},
 			{
-			    "type": "2",
-			    "content": {
-				"text": "This is caption...",
-				"imageUrl": "https://image.thanhnien.vn/665/uploaded/dinhson/2018_09_24/42295280_395318397670283_1000988436670185472_n_dffb.jpg"
-			    }
+			    "text": "World's simplest random hex generator. Just press Generate ...",
+			    "imageURL": "https://image.thanhnien.vn/665/uploaded/dinhson/2018_09_24/42295280_395318397670283_1000988436670185472_n_dffb.jpg",
+			    "imageCaption": "This is image caption"
 			}
 		    ]
 		}
