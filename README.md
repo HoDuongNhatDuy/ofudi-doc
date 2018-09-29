@@ -254,3 +254,72 @@ After sending request, a `Reset Code` will be sent to customer via email
 	    ]
 	}
 	```
+### 2.1.1. Get news detail
+- URL: /api/member/articles/{NEWS_ID}
+- Method: GET
+- Header: Bearer Facebook_Token
+- Parameters: 
+- Body: 
+- Success response `200 OK`
+	```
+	{
+	    "_id": "5ba9070ccbdaba15c8226b57",
+	    "tilte": "3. Tú Làn - Thiên Đường Vô Danh trong vùng đất của KING KONG",
+	    "subtilte": "Tú Làn - Thiên Đường Vô Danh",
+	    "createdAt": "1537610472",
+	    "tag": [
+		"ăn uống",
+		"miền bắc"
+	    ],
+	    "headerImages": [
+		"https://image.thanhnien.vn/665/uploaded/dinhson/2018_09_24/42295280_395318397670283_1000988436670185472_n_dffb.jpg",
+		"https://image.thanhnien.vn/665/uploaded/dinhson/2018_09_24/42295280_395318397670283_1000988436670185472_n_dffb.jpg"
+	    ],
+	    "components": [
+		{
+		    "type": "1",
+		    "content": {
+			"text": "World's simplest random hex generator. Just press Generate ..."
+		    }
+		},
+		{
+		    "type": "2",
+		    "content": {
+			"text": "This is caption...",
+			"imageUrl": "https://image.thanhnien.vn/665/uploaded/dinhson/2018_09_24/42295280_395318397670283_1000988436670185472_n_dffb.jpg"
+		    }
+		}
+	    ],
+	    "relatedNews": [
+		{
+		    "_id": "5ba905cf0b2d5d15c8c2c998",
+		    "tilte": "1. Tú Làn - Thiên Đường Vô Danh trong vùng đất của KING KONG",
+		    "subtilte": "Tú Làn - Thiên Đường Vô Danh",
+		    "createdAt": "1537610470",
+		    "tag": [
+			"du lịch",
+			"miền bắc"
+		    ],
+		    "headerImages": [
+			"https://image.thanhnien.vn/665/uploaded/dinhson/2018_09_24/42295280_395318397670283_1000988436670185472_n_dffb.jpg",
+			"https://image.thanhnien.vn/665/uploaded/dinhson/2018_09_24/42295280_395318397670283_1000988436670185472_n_dffb.jpg"
+		    ],
+		    "components": [
+			{
+			    "type": "1",
+			    "content": {
+				"text": "World's simplest random hex generator. Just press Generate ..."
+			    }
+			},
+			{
+			    "type": "2",
+			    "content": {
+				"text": "This is caption...",
+				"imageUrl": "https://image.thanhnien.vn/665/uploaded/dinhson/2018_09_24/42295280_395318397670283_1000988436670185472_n_dffb.jpg"
+			    }
+			}
+		    ]
+		}
+	    ]
+	}
+	```
