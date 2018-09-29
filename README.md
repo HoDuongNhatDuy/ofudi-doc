@@ -268,17 +268,14 @@ After sending request, a `Reset Code` will be sent to customer via email
 	    ],
 	    "components": [
 		{
-		    "type": "1",
-		    "content": {
-			"text": "World's simplest random hex generator. Just press Generate ..."
-		    }
+		    "text": "World's simplest random hex generator. Just press Generate ..."
 		},
 		{
-		    "type": "2",
-		    "content": {
-			"text": "This is caption...",
-			"imageUrl": "https://image.thanhnien.vn/665/uploaded/dinhson/2018_09_24/42295280_395318397670283_1000988436670185472_n_dffb.jpg"
-		    }
+		    "text": "World's simplest random hex generator. Just press Generate ..."
+		},
+		{
+		    "imageURL": "https://image.thanhnien.vn/665/uploaded/dinhson/2018_09_24/42295280_395318397670283_1000988436670185472_n_dffb.jpg",
+		    "imageCaption": "This is image caption"
 		}
 	    ],
 	    "relatedNews": [
