@@ -202,6 +202,46 @@ After sending request, a `Reset Code` will be sent to customer via email
 		"avatarThumbnailUrl": "/uploads/images/avatars/b0a7f019830ff6ca4b9f38de6f9b89a4_thumbnail.png"
     }
 	```
+### 2.2.1. Update
+- URL: /api/member/get-personal-info
+- Method: GET
+- Header: Bearer Facebook_Token
+- Parameters:
+- Body: 
+	```
+	{
+	    "_id": "5bbcab9541cc104c2354c4a2",
+	    "facebookId": "1905622459558234",
+	    "facebookToken": "EAAepKaWilCkBAJ3qyGZAqR6mO1kFtByXg...JfM3jkjddRifcZD",
+	    "facebookTokenExpiredAt": 1539446400
+	}
+	```
+- Success response `200 OK`
+	```
+	{
+		"_id": "5ba534d08568a60b600036a4",
+		"facebookId": "1874330452687355",
+	    	"facebookToken": "EAAETKIAArI8BAJQKvcIU...uoQUtyMZD",
+	    	"facebookTokenExpiredAt": 1538064000,
+	    	"avatarThumbnailUrl": "/uploads/images/avatars/4dcb1909316f7e0172d33d750c80f1ad_thumbnail.jpg",
+	    	"avatarUrl": "/uploads/images/avatars/4dcb1909316f7e0172d33d750c80f1ad.jpg",
+	    	"name": "Lý Anh Vũ",
+	    	"city": "Hồ Chí Minh",
+	    	"country": "Việt Nam",
+	    	"hobbyTags": [
+			"Phượt",
+			"Ăn",
+			"Mua Sắm",
+			"Nghe nhạc",
+			"Hello World"
+	    	],
+	    	"email": "hanld@vng.com.vn",
+	    	"gender": "0",
+	    	"old": "18",
+	    	"isHost": true,
+	    	"onBoarding": false
+	}
+	```
 ## 2.1. Articles
 ### 2.1.1. Get latest news
 - URL: /api/member/articles/latest
