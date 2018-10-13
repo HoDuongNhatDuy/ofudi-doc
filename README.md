@@ -202,7 +202,7 @@ After sending request, a `Reset Code` will be sent to customer via email
 		"avatarThumbnailUrl": "/uploads/images/avatars/b0a7f019830ff6ca4b9f38de6f9b89a4_thumbnail.png"
     }
 	```
-### 2.2.1. Update
+### 2.2.3. Get profile
 - URL: /api/member/get-personal-info
 - Method: GET
 - Header: Bearer Facebook_Token
@@ -242,8 +242,8 @@ After sending request, a `Reset Code` will be sent to customer via email
 	    	"onBoarding": false
 	}
 	```
-## 2.1. Articles
-### 2.1.1. Get latest news
+## 2.3. Articles
+### 2.3.1. Get latest news
 - URL: /api/member/articles/latest
 - Method: GET
 - Header: Bearer Facebook_Token
@@ -286,7 +286,7 @@ After sending request, a `Reset Code` will be sent to customer via email
 	    ]
 	}
 	```
-### 2.1.1. Get news detail
+### 2.3.2. Get news detail
 - URL: /api/member/articles/{NEWS_ID}
 - Method: GET
 - Header: Bearer Facebook_Token
@@ -348,8 +348,8 @@ After sending request, a `Reset Code` will be sent to customer via email
 	    ]
 	}
 	```
-## 2.1. Files
-### 2.1.1. Upload multiple files
+## 2.4. Files
+### 2.4.1. Upload multiple files
 - URL: /api/member/articles/files/upload-multiple
 - Method: POST
 - Header: Bearer Facebook_Token
