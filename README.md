@@ -194,6 +194,7 @@ After sending request, a `Reset Code` will be sent to customer via email
 - Header: Bearer Facebook_Token
 - Parameters:
 - Body: 
+	+ avatar: File Type
 - Success response `200 OK`
 	```
 	{
@@ -306,4 +307,41 @@ After sending request, a `Reset Code` will be sent to customer via email
 		}
 	    ]
 	}
+	```
+## 2.1. Files
+### 2.1.1. Upload multiple files
+- URL: /api/member/articles/files/upload-multiple
+- Method: POST
+- Header: Bearer Facebook_Token
+- Parameters:
+- Body: 
+	+ files[]: File Type
+	+ files[]: File Type
+	Example: ![alt text](https://imgur.com/a/YEgAc1c "Demo")
+- Success response `201 Created`
+	```
+	[
+	    {
+		"basename": "85755fa71be2dd9542ec9066f3a0543b",
+		"extension": "jpg",
+		"filename": "85755fa71be2dd9542ec9066f3a0543b.jpg",
+		"path": "/uploads/member-files/85755fa71be2dd9542ec9066f3a0543b.jpg",
+		"size": 1078250,
+		"type": "image",
+		"timestamp": 1539441444,
+		"thumbnail": "/uploads/member-files/85755fa71be2dd9542ec9066f3a0543b_thumbnail.jpg",
+		"_id": "5bc203248568a60ee40052e2"
+	    },
+	    {
+		"basename": "44bd34f1a4ffdf24eebe84437868e256",
+		"extension": "jpg",
+		"filename": "44bd34f1a4ffdf24eebe84437868e256.jpg",
+		"path": "/uploads/member-files/44bd34f1a4ffdf24eebe84437868e256.jpg",
+		"size": 485743,
+		"type": "image",
+		"timestamp": 1539441444,
+		"thumbnail": "/uploads/member-files/44bd34f1a4ffdf24eebe84437868e256_thumbnail.jpg",
+		"_id": "5bc203248568a60ee40052e3"
+	    }
+	]
 	```
