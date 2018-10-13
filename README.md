@@ -317,7 +317,7 @@ After sending request, a `Reset Code` will be sent to customer via email
 - Body: 
 	+ files[]: File Type
 	+ files[]: File Type
-	Example: ![alt text](https://imgur.com/a/YEgAc1c "Demo")
+- Example: ![alt text](https://i.imgur.com/fJ56sp2.png "Demo")
 - Success response `201 Created`
 	```
 	[
