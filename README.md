@@ -350,7 +350,7 @@ After sending request, a `Reset Code` will be sent to customer via email
 	```
 ## 2.4. Files
 ### 2.4.1. Upload multiple files
-- URL: /api/member/articles/files/upload-multiple
+- URL: /api/member/files/upload-multiple
 - Method: POST
 - Header: Bearer Facebook_Token
 - Parameters:
