@@ -239,7 +239,33 @@ After sending request, a `Reset Code` will be sent to customer via email
 	    	"gender": "0",
 	    	"old": "18",
 	    	"isHost": true,
-	    	"onBoarding": false
+	    	"onBoarding": false,
+		"files": [
+			{
+			    "_id": "5bc8a0b98568a62c60002b52",
+			    "basename": "eaf1e4244177e5695643d83927f18cdf",
+			    "extension": "jpg",
+			    "filename": "eaf1e4244177e5695643d83927f18cdf.jpg",
+			    "path": "/uploads/member-files/eaf1e4244177e5695643d83927f18cdf.jpg",
+			    "size": 776564,
+			    "type": "image",
+			    "timestamp": 1539875001,
+			    "thumbnail": "/uploads/member-files/eaf1e4244177e5695643d83927f18cdf_thumbnail.jpg",
+			    "authorUserId": "5ba534d08568a60b600036a4"
+			},
+			{
+			    "_id": "5bc8a1388568a62c60002b53",
+			    "basename": "b35091a88e76f2c07ed9986ce813ab3c",
+			    "extension": "jpg",
+			    "filename": "b35091a88e76f2c07ed9986ce813ab3c.jpg",
+			    "path": "/uploads/member-files/b35091a88e76f2c07ed9986ce813ab3c.jpg",
+			    "size": 776564,
+			    "type": "image",
+			    "timestamp": 1539875128,
+			    "thumbnail": "/uploads/member-files/b35091a88e76f2c07ed9986ce813ab3c_thumbnail.jpg",
+			    "authorUserId": "5ba534d08568a60b600036a4"
+			}
+		]
 	}
 	```
 ## 2.3. Articles
@@ -260,7 +286,7 @@ After sending request, a `Reset Code` will be sent to customer via email
 		    "_id": "5ba911940b2d5d15c8c2c99b",
 		    "title": "3. Tú Làn - Thiên Đường Vô Danh trong vùng đất của KING KONG",
 		    "subtitle": "Tú Làn - Thiên Đường Vô Danh",
-		    "createdAt": "1537610472",
+		    "createdAt": 1537610472,
 		    "tag": [
 			"du lịch",
 			"miền bắc"
@@ -298,7 +324,7 @@ After sending request, a `Reset Code` will be sent to customer via email
 	    "_id": "5ba9070ccbdaba15c8226b57",
 	    "tilte": "3. Tú Làn - Thiên Đường Vô Danh trong vùng đất của KING KONG",
 	    "subtilte": "Tú Làn - Thiên Đường Vô Danh",
-	    "createdAt": "1537610472",
+	    "createdAt": 1537610472,
 	    "tag": [
 		"ăn uống",
 		"miền bắc"
