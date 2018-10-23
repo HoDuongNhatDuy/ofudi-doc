@@ -454,6 +454,70 @@ After sending request, a `Reset Code` will be sent to customer via email
 	    ]
 	}
 	```
+### 2.3.3. Get favorite news
+- URL: /api/member/articles/favorite
+- Method: GET
+- Header: Bearer Facebook_Token
+- Parameters: 
+- Body: 
+- Success response `200 OK`
+	```
+	{
+	    "5bcea3d2c551d428200069c3": {
+		"_id": "5bcea3d2c551d428200069c3",
+		"title": "The standard Lorem Ipsum passage, used since the 1500s",
+		"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+		"tags": [
+		    "du lich",
+		    "mien bac"
+		],
+		"headerImages": [
+		    {
+			"_id": "5bce967fc551d428200069b4",
+			"basename": "9646f46d83bc2459730094348cada1a2",
+			"extension": "jpg",
+			"filename": "9646f46d83bc2459730094348cada1a2.jpg",
+			"path": "/uploads/member-files/9646f46d83bc2459730094348cada1a2.jpg",
+			"size": 496105,
+			"type": "image",
+			"timestamp": 1540265599,
+			"thumbnail": "/uploads/member-files/9646f46d83bc2459730094348cada1a2_thumbnail.jpg",
+			"medium": "/uploads/member-files/9646f46d83bc2459730094348cada1a2_medium.jpg",
+			"authorUserId": "5bb70cb97c43c631d05a92ef",
+			"selected": false
+		    },
+		    {...}
+		],
+		"components": [
+		    {
+			"image": {
+			    "_id": "5bce9d0cc551d428200069bd",
+			    "basename": "47779c0f8729500e8d9329b24c3e5604",
+			    "extension": "jpg",
+			    "filename": "47779c0f8729500e8d9329b24c3e5604.jpg",
+			    "path": "/uploads/images/medias/47779c0f8729500e8d9329b24c3e5604.jpg",
+			    "size": 197349,
+			    "type": "image",
+			    "timestamp": 1540267276,
+			    "thumbnail": "/uploads/images/medias/47779c0f8729500e8d9329b24c3e5604_thumbnail.jpg",
+			    "medium": "/uploads/images/medias/47779c0f8729500e8d9329b24c3e5604_medium.jpg",
+			    "authorUserId": "5bb71cdc7c43c631d05a92f0",
+			    "selected": false
+			},
+			"imageCaption": "Caption 1",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+			"link": "https://www.lipsum.com/"
+		    },
+		    {...}
+		],
+		"createdAt": 1540269010,
+		"relatedNews": [
+		    {...},
+		    {...}
+		]
+	    }
+	}
+	```
 ## 2.4. Files
 ### 2.4.1. Upload multiple files
 - URL: /api/member/files/upload-multiple
