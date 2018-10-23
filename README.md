@@ -251,6 +251,7 @@ After sending request, a `Reset Code` will be sent to customer via email
 			    "type": "image",
 			    "timestamp": 1539875001,
 			    "thumbnail": "/uploads/member-files/eaf1e4244177e5695643d83927f18cdf_thumbnail.jpg",
+			    "medium": "/uploads/member-files/eaf1e4244177e5695643d83927f18cdf_medium.jpg",
 			    "authorUserId": "5ba534d08568a60b600036a4"
 			},
 			{
@@ -263,6 +264,7 @@ After sending request, a `Reset Code` will be sent to customer via email
 			    "type": "image",
 			    "timestamp": 1539875128,
 			    "thumbnail": "/uploads/member-files/b35091a88e76f2c07ed9986ce813ab3c_thumbnail.jpg",
+			    "medium": "/uploads/member-files/eaf1e4244177e5695643d83927f18cdf_medium.jpg",
 			    "authorUserId": "5ba534d08568a60b600036a4"
 			}
 		]
@@ -292,8 +294,21 @@ After sending request, a `Reset Code` will be sent to customer via email
 			"miền bắc"
 		    ],
 		    "headerImages": [
-			"https://image.thanhnien.vn/665/uploaded/dinhson/2018_09_24/42295280_395318397670283_1000988436670185472_n_dffb.jpg",
-			"https://image.thanhnien.vn/665/uploaded/dinhson/2018_09_24/42295280_395318397670283_1000988436670185472_n_dffb.jpg"
+		    	{
+				authorUserId: "5bb70cb97c43c631d05a92ef"
+				basename: "9646f46d83bc2459730094348cada1a2"
+				extension: "jpg"
+				filename: "9646f46d83bc2459730094348cada1a2.jpg"
+				medium: "/uploads/member-files/9646f46d83bc2459730094348cada1a2_medium.jpg"
+				path: "/uploads/member-files/9646f46d83bc2459730094348cada1a2.jpg"
+				selected: false
+				size: 496105
+				thumbnail: "/uploads/member-files/9646f46d83bc2459730094348cada1a2_thumbnail.jpg"
+				timestamp: 1540265599
+				type: "image"
+				_id: "5bce967fc551d428200069b4"
+			},
+			{...}
 		    ],
 		    "relatedNews": [],
 		    "components": [
@@ -302,7 +317,20 @@ After sending request, a `Reset Code` will be sent to customer via email
 			},
 			{
 			    "text": "World's simplest random hex generator. Just press Generate ...",
-			    "imageURL": "https://image.thanhnien.vn/665/uploaded/dinhson/2018_09_24/42295280_395318397670283_1000988436670185472_n_dffb.jpg",
+			    "image": {
+			    	authorUserId: "5bb70cb97c43c631d05a92ef"
+				basename: "9646f46d83bc2459730094348cada1a2"
+				extension: "jpg"
+				filename: "9646f46d83bc2459730094348cada1a2.jpg"
+				medium: "/uploads/member-files/9646f46d83bc2459730094348cada1a2_medium.jpg"
+				path: "/uploads/member-files/9646f46d83bc2459730094348cada1a2.jpg"
+				selected: false
+				size: 496105
+				thumbnail: "/uploads/member-files/9646f46d83bc2459730094348cada1a2_thumbnail.jpg"
+				timestamp: 1540265599
+				type: "image"
+				_id: "5bce967fc551d428200069b4"
+			    },
 			    "imageCaption": "This is image caption"
 			}
 		    ]
@@ -330,8 +358,21 @@ After sending request, a `Reset Code` will be sent to customer via email
 		"miền bắc"
 	    ],
 	    "headerImages": [
-		"https://image.thanhnien.vn/665/uploaded/dinhson/2018_09_24/42295280_395318397670283_1000988436670185472_n_dffb.jpg",
-		"https://image.thanhnien.vn/665/uploaded/dinhson/2018_09_24/42295280_395318397670283_1000988436670185472_n_dffb.jpg"
+		{
+			authorUserId: "5bb70cb97c43c631d05a92ef"
+			basename: "9646f46d83bc2459730094348cada1a2"
+			extension: "jpg"
+			filename: "9646f46d83bc2459730094348cada1a2.jpg"
+			medium: "/uploads/member-files/9646f46d83bc2459730094348cada1a2_medium.jpg"
+			path: "/uploads/member-files/9646f46d83bc2459730094348cada1a2.jpg"
+			selected: false
+			size: 496105
+			thumbnail: "/uploads/member-files/9646f46d83bc2459730094348cada1a2_thumbnail.jpg"
+			timestamp: 1540265599
+			type: "image"
+			_id: "5bce967fc551d428200069b4"
+		},
+		{...}
 	    ],
 	    "components": [
 		{
@@ -341,7 +382,20 @@ After sending request, a `Reset Code` will be sent to customer via email
 		    "text": "World's simplest random hex generator. Just press Generate ..."
 		},
 		{
-		    "imageURL": "https://image.thanhnien.vn/665/uploaded/dinhson/2018_09_24/42295280_395318397670283_1000988436670185472_n_dffb.jpg",
+		    "image": {
+			authorUserId: "5bb70cb97c43c631d05a92ef"
+			basename: "9646f46d83bc2459730094348cada1a2"
+			extension: "jpg"
+			filename: "9646f46d83bc2459730094348cada1a2.jpg"
+			medium: "/uploads/member-files/9646f46d83bc2459730094348cada1a2_medium.jpg"
+			path: "/uploads/member-files/9646f46d83bc2459730094348cada1a2.jpg"
+			selected: false
+			size: 496105
+			thumbnail: "/uploads/member-files/9646f46d83bc2459730094348cada1a2_thumbnail.jpg"
+			timestamp: 1540265599
+			type: "image"
+			_id: "5bce967fc551d428200069b4"
+		    },
 		    "imageCaption": "This is image caption"
 		}
 	    ],
@@ -356,12 +410,38 @@ After sending request, a `Reset Code` will be sent to customer via email
 			"miền bắc"
 		    ],
 		    "headerImages": [
-			"https://image.thanhnien.vn/665/uploaded/dinhson/2018_09_24/42295280_395318397670283_1000988436670185472_n_dffb.jpg",
-			"https://image.thanhnien.vn/665/uploaded/dinhson/2018_09_24/42295280_395318397670283_1000988436670185472_n_dffb.jpg"
+			{
+				authorUserId: "5bb70cb97c43c631d05a92ef"
+				basename: "9646f46d83bc2459730094348cada1a2"
+				extension: "jpg"
+				filename: "9646f46d83bc2459730094348cada1a2.jpg"
+				medium: "/uploads/member-files/9646f46d83bc2459730094348cada1a2_medium.jpg"
+				path: "/uploads/member-files/9646f46d83bc2459730094348cada1a2.jpg"
+				selected: false
+				size: 496105
+				thumbnail: "/uploads/member-files/9646f46d83bc2459730094348cada1a2_thumbnail.jpg"
+				timestamp: 1540265599
+				type: "image"
+				_id: "5bce967fc551d428200069b4"
+			},
+			{...}
 		    ],
 		    "components": [
 			{
-			    "imageURL": "https://image.thanhnien.vn/665/uploaded/dinhson/2018_09_24/42295280_395318397670283_1000988436670185472_n_dffb.jpg",
+			    "image": {
+				authorUserId: "5bb70cb97c43c631d05a92ef"
+				basename: "9646f46d83bc2459730094348cada1a2"
+				extension: "jpg"
+				filename: "9646f46d83bc2459730094348cada1a2.jpg"
+				medium: "/uploads/member-files/9646f46d83bc2459730094348cada1a2_medium.jpg"
+				path: "/uploads/member-files/9646f46d83bc2459730094348cada1a2.jpg"
+				selected: false
+				size: 496105
+				thumbnail: "/uploads/member-files/9646f46d83bc2459730094348cada1a2_thumbnail.jpg"
+				timestamp: 1540265599
+				type: "image"
+				_id: "5bce967fc551d428200069b4"
+			    },
 			    "imageCaption": "This is image caption"
 			},
 			{
